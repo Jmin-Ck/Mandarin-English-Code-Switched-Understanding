@@ -1,0 +1,16 @@
+# Create virtual environment
+python -m venv w_ft_env
+
+# Activate
+w_ft_env\Scripts\activate
+
+ft.ipynb:
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install transformers==4.44.2 accelerate==0.33.0 datasets==2.18.0 evaluate jiwer librosa soundfile audioread tqdm ipykernel 
+pip uninstall torchcodec -y
+pip install streamlit pyngrok -q
+pip install flask flask-cors
+
+# HuggingFace Token (xlsr_projectver1)
+huggingface-cli login
+
