@@ -1,7 +1,6 @@
 # Name: Chak Jia Min 
 # Programme: Bachelor Degree in Data Science (RDS)
 # Topic: Mandarin-English Code-switching Understanding 
-# Supervisor: Dr. Ho Chuk Fong
 
 import streamlit as st
 import torch
